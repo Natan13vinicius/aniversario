@@ -1,8 +1,19 @@
+@use "hero";
+@use "components/infos_bar";
+@use "components/buttons";
+@use "event";
+@use "variables";
+
+@font-face {
+  font-family: CookGothif;
+  src: url(./fontes/CookGothif.otf) format("opentype");
+  font-weight: lighter;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
   color: variables.$textColor;
   list-style: none;
 }
